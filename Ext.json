@@ -1,0 +1,89 @@
+{
+    "About": {
+        "Name": "Get Pixel Object",
+        "Author": "Conceptgame",
+        "Copyright": "Copyright (C) 2013 Conceptgame",
+        "Comment": "Get Pixel colors on screen (compatible with HWA)",
+        "URL": "",
+        "Help": "Help/GetPixel.chm",
+        "Identifier": "GETP"
+    },
+    "ExpressionMenu": [
+		"Separator",
+        [
+            0,
+            "Get Red"
+        ],
+        [
+            1,
+            "Get Green"
+        ],
+		[
+            2,
+            "Get Blue"
+        ],
+		[
+            3,
+            "Get Color"
+        ],
+		"Separator"
+    ],
+    "Expressions": [
+        {
+            "Title": "Red(",
+            "Returns": "Integer",
+            "Parameters": [
+                [
+                    "Integer",
+                    "Pos X"
+                ],
+                [
+                    "Integer",
+                    "Pos Y"
+                ]
+            ]
+        },
+        {
+            "Title": "Green(",
+            "Returns": "Integer",
+            "Parameters": [
+                [
+                    "Integer",
+                    "Pos X"
+                ],
+                [
+                    "Integer",
+                    "Pos Y"
+                ]
+            ]
+        },
+		{
+            "Title": "Blue(",
+            "Returns": "Integer",
+            "Parameters": [
+                [
+                    "Integer",
+                    "Pos X"
+                ],
+                [
+                    "Integer",
+                    "Pos Y"
+                ]
+            ]
+        },
+		{
+            "Title": "Color(",
+            "Returns": "Colour",
+            "Parameters": [
+                [
+                    "Integer",
+                    "Pos X"
+                ],
+                [
+                    "Integer",
+                    "Pos Y"
+                ]
+            ]
+        }
+    ]
+}
